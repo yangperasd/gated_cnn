@@ -1,13 +1,13 @@
-#Gated CNN
+# Gated CNN
 This is Keras implementation of “Gated Linear Unit”.
 
-#Requirements
+# Requirements
 
  - Keras 2.1.2
  - Tensorflow 1.0.0
  - Others can be seen in requirements.txt
 
-#Usage
+# Usage
 The main Class is `GatedConvBlock` in `py/gated_cnn.py`.
 Because there is a residual  connection in Gated Linear Unit (GLU), the padding of conv must be `same`. 
 Let's take some example.
@@ -41,7 +41,7 @@ model.fit(X_train, Y_train, batch_size=batch_size, epochs=nb_epoch,
 ```
 Check `py/mnist_gated_cnn.py` for more detail.
 
-#Reference
+# Reference
 - https://github.com/anantzoid/Language-Modeling-GatedCNN
 
 > Written with [StackEdit](https://stackedit.io/).
