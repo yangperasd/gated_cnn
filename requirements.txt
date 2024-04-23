@@ -5,7 +5,7 @@ Keras==2.1.2
 numpy==1.14.3
 protobuf==3.5.2.post1
 PyYAML==3.12
-scikit-learn==0.19.1
+scikit-learn
 scipy==1.1.0
 six==1.11.0
 sklearn==0.0
